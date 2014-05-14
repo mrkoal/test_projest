@@ -1,0 +1,123 @@
+body{background-color: #efefef;}/*背景*/
+.header{background-color: #e57c91;}/*导航背景*/
+.header .nav li a b{background:url(../img/v2/header/nav_ch.png) no-repeat;} /*导航ico*/
+.header .nav li a{color: #a53f53}
+.header .nav li a:hover,.header .nav li a.active{color: #fff;background-color: #d57387;}/*导航文字*/
+.header .menu>li{border-color:#db778a;-webkit-border-image:url(../img/v2/header/borimg.gif) 0 1 round;-o-border-image:url(../img/v2/header/borimg.gif) 0 1 round;-moz-border-image:url(../img/v2/header/borimg.gif) 0 1 round;-ms-border-image:url(../img/v2/header/borimg.gif) 0 1 round;border-image:url(../img/v2/header/borimg.gif) 0 1 round;}/*用户设置*/
+.header .menu>li a .unread{background-color: #d41413;border-radius: 7px;border:2px solid #fff;}/*未读信息提示红点*/
+.header .menu>li a.letter{background: url(../img/v2/header/nav_ch.png) -71px -22px no-repeat;}/*通知*/
+.header .menu>li a.notice{background: url(../img/v2/header/nav_ch.png) -71px -92px no-repeat;}/*私信*/
+.header .menu>li a.user span{color: #fff;}/*用户名*/
+.header .child{border-color: #ccc;background-color: #fff;box-shadow: 0 0 5px #999}/*导航下拉*/
+.header .child .angle{border-bottom:10px solid #ccc;}/*导航下拉气泡嘴底色*/
+.header .child .angle2{border-bottom:10px solid #fff;}/*导航下拉气泡嘴面色*/
+.header .child h3{color: #000;}/*导航下拉标题*/
+.header .child .letterbox{background: url(http://img.duoyi.com/025/images/loading.gif) center no-repeat;}
+.header .child .letterbox_list{border-top: 1px solid #e6e6e6;background-color: #fff;color: #666}
+.header .child .active{background-color: #f5f5f5;}/*下拉消息提示列表*/
+.header .child .letterbox_list p.lh22{color: #999}/*下拉消息提示用户状态*/
+.header .child .crtrlbox{background-color: #f5f5f5;}
+.header .child .crtrlbox .ctrlbut{background: url(../img/v2/header/ctrlbut.png) no-repeat;}
+.header .child .crtrlbox .ctrlbut:hover{opacity: .8;filter: alpha(opacity=80);}/*下拉消息提示控制*/
+.header .child .crtrlbox .leftbut,.header .child .crtrlbox .rightbut{border-color:#ccc;background-color: #f2f2f2;box-shadow: inset 0 0 2px #fff;color: #ccc;}
+.header .child .crtrlbox .leftbut:hover,.header .child .crtrlbox .rightbut:hover{background-color: #fff;color: #999}/*下拉消息提示控制左右*/
+.header .child .uesrset p a{color: #666}
+.header .child .uesrset p a:hover{background-color: #f5f5f5;}/*用户设置文字*/
+.header .child .uesrset p a span{background-image:url(../img/v2/header/ctrlbut.png);}/*用户设置ico*/
+.footer a{color: #b4b4b4;}
+.footer a:hover{color: #ccc;}/*页脚*/
+/*me*/
+.banner{background-color: #fff;border-color: #dfdfdf;box-shadow: 0 1px 2px #ddd}
+.banner .bannerimg{background-color: #eae2d5;}/*me banner*/
+.myinfo{border-color: #c8c8c8;background-color: #fff;box-shadow: 0 0 4px #ccc}/*个人资料*/
+.myinfo .pointview{background: #71b839 url(../img/v2/user/pointview.png) 16px center no-repeat;color: #fff;}/*编辑/浏览模式*/
+.myinfo .avatar{border:1px solid #dcdcdc;box-shadow: 5px 8px 15px #cacaca}/*用户头像*/
+.canedit .editbut{background: url(../img/v2/user/editbut.png) no-repeat;opacity: .8;filter: alpha(opacity=80);}
+.canedit .editbut:hover{;opacity: 1;filter: alpha(opacity=100);}
+.canedit .editsave a{border-color: #e3e3e3;color: #b5b5b5;}
+.canedit .editsave a:hover{}
+/*可以编辑盒子*/
+
+.girlico{background: url(../img/v2/user/bag.png) no-repeat;}
+.boyico{background: url(../img/v2/user/bag.png) -17px 0 no-repeat;}/*boy&girl icon*/
+
+.lvbox{background:url(../img/v2/user/lvstart.png) 0 4px repeat-x;}/*lvstart*/
+.myinfo table.bor1cole3{border: 0 none;}
+.myinfo table.bor1cole3 td{border:1px solid #e3e3e3;}
+.myinfo table.bor1cole3 td:first-child{border-left: 0 none;}
+.myinfo table.bor1cole3 td:last-child{border-right: 0 none;}/*个人情况*/
+.qqico,.wxico,.wbico,.qwbico,.dbico,.rrico,.tyico{background-image: url(../img/v2/user/gam.png);}/*社交ico*/
+.qqico_me,.wxico_me,.wbico_me,.qwbico_me,.dbico_me,.rrico_me,.tyico_me,.phico_me,.mlico_me{border:1px solid #dbdbdb;background-image: url(../img/v2/me/gam_me.png);background-color: #ebebeb;}/*社交ico_me*/
+
+.main .subnav a{border-color:#fff;color: #4d4d4d;}
+.main .subnav a:hover{background-color: #ddd;}
+.main .subnav a.active:hover,.main .subnav a.active{border-color: #ddd;background-color: #f9f9f9;cursor: default;color: #4d4d4d;}/*副导航栏*/
+.main .subnav a .angle{border-bottom:12px solid #dfdfdf;}
+.main .subnav a .angle .angle2{border-bottom:12px solid #F3F3E9;}
+
+/*婚恋圈*/
+.playscroll .beau{background: url(../img/v2/me/beau.png) no-repeat;}/*配对对象相框*/
+
+.playscroll .timesover h2{color: #fff;text-shadow:0 0 4px #333;}/*配对对象问题*/
+.playscroll .answer_box a{border:1px solid #ddd;background-color: #fcfcfc;color: #444;}
+.playscroll .answer_box a:hover{background-color: #ddd;}/*配对对象答案*/
+.playscroll .answer_box a.other_change{border:1px solid #2891da;background-color: #319ae4;color: #fff;}
+.playscroll .answer_box a.other_change:hover{background-color: #44b1fd;}/*配对对象下一个*/
+
+.playscroll .scroll_ul li .scroll_title{color: #fff;opacity: .9;filter: alpha(opacity=90)}/*完美邂逅*/
+
+.playscroll .timesover{color: #fff}
+.playscroll .timestop{background: url(../img/v2/me/placewait.png) center 100px no-repeat;}/*配对对象等待时间*/
+
+.playscroll .send_status{box-shadow: 0 0 10px #666 inset;}
+.playscroll .send_status .send_status_bg{background-color: #000;opacity: .4;filter: alpha(opacity=40);}
+.playscroll .send_status h2{color: #eee;}
+.playscroll .send_status textarea{color: #666;box-shadow: 0 0 4px #666;}
+.playscroll .send_status .send{background-color: #f89709;color: #fff;}
+.playscroll .send_status .face a{background: url(../img/v2/me/ico_face.png) no-repeat;}
+.playscroll .send_status .face a:hover{opacity: .8;filter: alpha(opacity=80);}/*晒状态*/
+
+.tabnav a{border:1px solid #bfbfbf;padding: 0 40px;background-color: #f4f4f4;box-shadow: inset 0 0 3px #ccc;color: #666;}
+.tabnav a:hover{box-shadow: inset 0 0 5px #999;text-shadow:0 0 2px #999;}
+.tabnav a.active{background-color: #e6e6e6;}
+.tabnav a.active:hover{box-shadow: none;text-shadow: none;}/*状态滑动门*/
+
+.pageme .quan li{background-color: #fafafa;border-color:#D2D4D3;box-shadow: 0 0 1px #fcfcfc inset;}
+.pageme .quan li .qqico_me,.pageme .quan li span.wxico_me,.pageme .quan li span.wbico_me,.pageme .quan li span.qwbico_me,.pageme .quan li span.dbico_me,.pageme .quan li span.rrico_me,.pageme .quan li span.tyico_me,.pageme .quan li span.voico_me,.pageme .quan li span.poico_me{background-color: #f2f2f2;}
+.pageme .quan .quan_but{background-color: #f2f2f2;border:1px solid #d9d9d9;color: #888}
+.pageme .quan .quan_but:hover{opacity: .8;filter: alpha(opacity=80);}/*微领爱-社交圈子*/
+
+.pageme .status_list .lihead .qqico_me,.pageme .status_list .lihead .wxico_me,.pageme .status_list .lihead .wbico_me,.pageme .status_list .lihead .qwbico_me,.pageme .status_list .lihead .dbico_me,.pageme .status_list .lihead .rrico_me,.pageme .status_list .lihead .tyico_me,.pageme .status_list .lihead .voico_me,.pageme .status_list .lihead .poico_me{background-color: #f5f5f5;}/*状态里重新赋予背景色的ico_me*/
+
+.pageme .status_list  .lihead .add_nexus{background:#f2f2f2 url(../img/v2/me/nexusico.png) 4px -6px no-repeat;border:1px solid #d9d9d9;color: #888;}
+.pageme .status_list  .lihead .add_nexus:hover{background:#f2f2f2 url(../img/v2/me/nexusico.png) 4px -37px no-repeat;}
+.pageme .status_list  .lihead .add_nexused{background:#f2f2f2 url(../img/v2/me/nexusico.png) 5px -65px no-repeat;border:1px solid #d9d9d9;color: #888;border-radius: 1px;cursor: default;}/*圈 已圈*/
+.pageme .status_list .lifoot{color: #999;}
+.pageme .status_list .lifoot .leavedmsg li{color: #e6e6e6;}
+.pageme .status_list .lifoot .leavedmsg li a{background:url(../img/v2/me/leavedmsg.png) 0 0 no-repeat;color: #999}
+.pageme .status_list .lifoot .leavedmsg li a:hover{color: #666}
+.pageme .status_list .lifoot .leavedmsg li a.likes{background:url(../img/v2/me/leavedmsg.png) 0 -17px no-repeat;}
+.pageme .status_list .lifoot .leavedmsg li a.liked{background:url(../img/v2/me/leavedmsg.png) 0 0 no-repeat;}
+.pageme .status_list .lifoot .leavedmsg li a.leaved{background:url(../img/v2/me/leavedmsg.png) 0 -34px no-repeat;} /*来自iPhone客户端 点赞留意ico*/
+
+.pageme .status_list .libody .say{color: #666}/*用户动态文字*/
+.pageme .status_list .libody span.risk{color: #e8e8e8}/*冒号*/
+
+.pageme .status_list .libody .album{background-color: #f9f9f9;}
+.pageme .status_list .libody .album .more{color:#999; }
+.pageme .status_list .libody .album ul li{border-bottom:1px solid #e5e5e5;}
+.pageme .status_list .libody .album ul li img{border:1px solid #ddd;background-color: #fff;box-shadow: 0 0 4px #ccc;}/*用户动态相册*/
+
+.pageme .status_list .libody .myview{border-color:  #ededed;background-color: #fafafa;}
+.pageme .status_list .libody .myview a{color: #999;}
+.pageme .status_list .libody .myview a h2{color: #333;}
+.pageme .status_list .libody .myview a h2 span{background: url(../img/v2/me/myview.png) 0 0 no-repeat;}
+.pageme .status_list .libody .myview2 a h2 span{background: url(../img/v2/me/myview.png) 0 -22px no-repeat;}/*用户动态投票观点*/
+
+
+
+
+
+
+
+
